@@ -1,0 +1,281 @@
+
+<Container>:
+
+	rows: 3
+	padding: 0
+
+	cloud_menu: cloud_menu
+	sun_light: sun_light
+	cloud_reload: cloud_reload
+	label_widget01: label01
+	label_widget02: label02
+	label_widget03: label03
+	label_widget04: label04
+	label_widget05: label05
+	label_widget1: label1
+	label_widget2: label2
+	label_widget3: label3
+	label_widget4: label4
+	label_widget5: label5
+	label_widget6: label6
+	label_widget7: label7
+	label_widget8: label8
+	label_widget9: label9
+	label_widget10: label10
+	label_widget11: label11
+	label_widget12: label12
+	label_widget13: label13
+	label_widget14: label14
+	label_widget15: label15
+	label_widget16: label16
+	label_widget17: label17
+	label_widget18: label18
+	label_widget19: label19
+	label_widget20: label20
+	label_widget21: label21
+	label_widget22: label22
+	label_widget23: label23
+	label_widget24: label24
+	label_widget25: label25
+
+	AnchorLayout:
+		anchor_y: 'top'
+
+		AnchorLayout:
+			anchor_x: 'left'
+			anchor_y: 'top'
+
+			Spinner:
+				id: cloud_menu
+				background_normal: 'cloud_menu_1.png'
+				background_down: 'cloud_menu_1.png'
+				text: 'Rate'
+				size_hint: None, None
+			    size: (84, 84)
+			    values: ['Rate', 'Conv']
+
+			    on_text: root.rate_clicked(cloud_menu.text)
+
+		AnchorLayout:
+			anchor_x: 'right'
+			anchor_y: 'top'
+
+			Button:
+				id: sun_light
+			    background_normal: 'sun_light_1.png'
+			    background_down: 'sun_light_2.png'
+				size_hint: None, None
+				size: (84, 84)
+
+	GridLayout:
+
+		cols: 5
+
+		Label:
+			id: label01
+			text: '01'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+			
+		Label:
+			id: label02
+			text: '02'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label03
+			text: '03'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label04
+			text: '04'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label05
+			text: '05'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label1
+			text: '1'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+			
+		Label:
+			id: label2
+			text: '2'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label3
+			text: '3'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label4
+			text: '4'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label5
+			text: '5'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label6
+			text: '6'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+			
+		Label:
+			id: label7
+			text: '7'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label8
+			text: '8'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label9
+			text: '9'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label10
+			text: '10'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label11
+			text: '11'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+			
+		Label:
+			id: label12
+			text: '12'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label13
+			text: '13'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label14
+			text: '14'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label15
+			text: '15'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label16
+			text: '16'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+			
+		Label:
+			id: label17
+			text: '17'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label18
+			text: '18'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label19
+			text: '19'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label20
+			text: '20'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label21
+			text: '21'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+			
+		Label:
+			id: label22
+			text: '22'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label23
+			text: '23'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label24
+			text: '24'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)
+
+		Label:
+			id: label25
+			text: '25'
+			font_size: 18
+			color: (28/255, 28/255, 28/255, 1)			
+
+	AnchorLayout:
+		anchor_y: 'bottom'
+		Button:
+			id: cloud_reload
+			background_normal: 'cloud_reload_1.png'
+			background_down: 'cloud_reload_2.png'
+			size_hint: None, None
+			size: (84, 84)
+			
+			pos_hint: {'center_x': .5, 'y': .1}
+
+			on_release:
+				root.change_text()
+
+
+
+<Converter>
+	rows: 3
+	padding: 0
+
+	Label:
+		text: '1'
+
+	Label:
+		text: '2'
+		
+	Label:
+		text: '3'					
